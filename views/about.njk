@@ -1,0 +1,32 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre - Iniciando no Back-end</title>   
+{% endblock %}
+
+{% block content %}
+        
+    <div class="info">  
+        <div class="infoText">
+            <h3>{{ about.infoText }}</h3>
+            <ul>
+                {% for tech in about.listTech %}
+                    <li>
+                        {{tech.techName}}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>  
+        <div class="infoImage">
+            <img src="{{about.img_URL}}" alt="">
+            <h1>{{ about.rocketName }}</h1>
+        </div>  
+    </div>
+    <div class="linksFooter">
+        {% for link in about.links %}
+            <a href="{{link.url}}" target="_blank">{{link.name}}</a>
+        {% endfor %}
+    </div> 
+
+{% endblock %}

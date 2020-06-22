@@ -1,0 +1,30 @@
+
+{% extends "layout.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="styleContent.css">
+    <title>Curso</title>   
+{% endblock %}
+
+{% block content %}
+
+    <div class="pageTheme">Curso</div>
+
+    <section class="cards"> 
+
+            <div  class="card" id="card-{{item.Num}}" curseName="{{item.id}}">
+                <div id="numberCard-{{item.Num}}" >{{item.Num}}</div>
+                <div id="imageCard-{{item.Num}}">
+                    <img src="{{item.Img}}" alt="logo {{item.id}}">
+                </div>
+                <div class="textCard-{{item.Num}}">
+                    <p><strong>{{item.Text}}</p>
+                </div>
+                <div class="modulosCard">
+                    <p class="mod{{item.Num}}">{{item.QuantMod}}</p>
+                    <p class="cardPrice-{{item.Num}}">{{item.Price}}</p>
+                </div>
+            </div>
+
+    </section>
+{% endblock %}
