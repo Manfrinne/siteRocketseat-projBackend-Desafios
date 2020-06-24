@@ -6,7 +6,8 @@ module.exports = [
         Text: "Torne-se um programador desejado</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
         QuantMod: "5 Módulos",
         Price: "Free",
-        title: "Starter"
+        title: "Starter",
+        courseURL: "https://rocketseat.com.br/starter"
     },
     {
         id: "launchbase",
@@ -15,7 +16,8 @@ module.exports = [
         Text: "Iniciar Web Developer</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
         QuantMod: "10 Módulos",
         Price: "Free",
-        title: "Launchbase"
+        title: "Launchbase",
+        courseURL: "https://rocketseat.com.br/launchbase"
     },
     {
         id: "gostack",
@@ -24,7 +26,8 @@ module.exports = [
         Text: "Programador avançado</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
         QuantMod: "15 Módulos",
         Price: "Free",
-        title: "Gostack"
+        title: "Gostack",
+        courseURL: "https://rocketseat.com.br/gostack"
     }
 ];
 

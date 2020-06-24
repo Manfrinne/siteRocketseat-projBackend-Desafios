@@ -27,7 +27,7 @@ server.get("/courses/:id", function(req, res) {
         return course.id == id;
     }); 
     if (!course) {
-        return res.send("not-found");
+        return res.render("not-found");
     };
 
     return res.render("course", {item: course});

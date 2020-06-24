@@ -377,16 +377,170 @@ header div a:hover {
     width: 75%;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
+.notFound {
+    color: rgb(4, 211, 97);
 }
 
 /* UNIQUE COURSE */
+
+
+#uniq_card-01 {
+    width: 700px;
+    height: 450px;
+    margin: 75px auto;
+    background: rgb(21, 20, 26);
+}
+
+#uniq_imageCard-01 {
+    width: 135px;
+    height: 145px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.uniq_textCard-01 {
+    max-width: 400px;
+
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+
+    margin: 0px auto;
+}
+
+.uniq_textCard-01 p strong {
+    color: rgb(113, 89, 193);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.startCurse-01 {
+    width: 135px;
+    background-color: rgb(113, 89, 193);
+    padding: 5px 20px;
+    margin: 35px auto;
+    border-radius: 6px;
+}
+
+.startCurse-01 a {
+    width: 125px;
+    text-align: center;
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(16, 15, 18);  
+}
+
+/* ======== */
+
+#uniq_card-02 {
+    width: 700px;
+    height: 450px;
+    margin: 75px auto;
+    background: rgb(21, 20, 26);
+}
+
+#uniq_imageCard-02 {
+    width: 135px;
+    height: 145px;
+    margin: 0px auto;
+    padding: 40px;
+    padding-right: 145px;
+}
+
+
+.uniq_textCard-02 {
+    max-width: 400px;
+
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+
+    margin: 0px auto;
+}
+
+.uniq_textCard-02 p strong {
+    color: rgb(253, 149, 31);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.startCurse-02 {
+    width: 135px;
+    background-color: rgb(253, 149, 31);
+    padding: 5px 20px;
+    margin: 35px auto;
+    border-radius: 6px;
+}
+
+.startCurse-02 a {
+    width: 125px;
+    text-align: center;
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(16, 15, 18);  
+}
+
+/* ======== */
+
+#uniq_card-03 {
+    width: 700px;
+    height: 450px;
+    margin: 75px auto;
+    background: rgb(21, 20, 26);
+}
+
+#uniq_imageCard-03 {
+    width: 135px;
+    height: 145px;
+    margin: 0px auto;
+    padding: 40px;
+    padding-right: 145px;
+}
+
+#uniq_imageCard-03 img {
+    margin-left: 43px;
+}
+
+.uniq_textCard-03 {
+    max-width: 400px;
+
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+
+    margin: 0px auto;
+}
+
+.uniq_textCard-03 p strong {
+    color: rgb(4, 211, 97);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.startCurse-03 {
+    width: 135px;
+    background-color: rgb(4, 211, 97);
+    padding: 5px 20px;
+    margin: 35px auto;
+    border-radius: 6px;
+}
+
+.startCurse-03 a {
+    width: 125px;
+    text-align: center;
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(16, 15, 18);  
+}
 
 
 

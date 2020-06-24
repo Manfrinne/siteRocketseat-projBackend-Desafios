@@ -1,6 +1,32 @@
-# Bootcamp Rocketseat
+# Bootcamp Rocketseat - DESAFIOS
 
 > Projeto Bootcamp - Backend site Rocketseat
+
+O objetivo desse projeto é desenvolver o Backend de um Web site. Vamos criar um servidor com as rotas dos arquivos HTMLs, também vamos usar uma template engine para manipular os dados do frontend de forma dinâmica. Além disso vamos implementar uma Web page que emite o erro '404' caso alguma rota do servidor não seja encontrada.
+
+![](public/showProject.gif)
+
+ ## Tecnologias e ferramentas:
+
+ <ul>
+  <li>Javascript</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Node.js</li>
+  <li>Nodemon</li>
+  <li>Express</li>
+  <li>Nunjucks</li>
+ </ul>
+ 
+## Rodando o projeto:
+
+1 - Clone o projeto e o abra utilizando seu editor preferido.
+
+2 - Rode um `npm install` na pasta do projeto.
+
+3 - Rode um `npm start` para rodar o projeto.
+
+4 - Abra o projeto em `localhost:8080`
  
 ## Desafio 3-1 (Primeiro servidor)
 
@@ -28,6 +54,11 @@ Arquivos nunjucks e dados dinâmicos: Nesse desafio você deve atualizar os arqu
 
 Criar página de descrição do curso: Nesse desafio você deve criar uma página de descrição do curso que deve ser chamada no lugar da modal quando o usuário clicar no card do curso.  A rota também será a /courses, porém o id do curso será passado via route params (ex.: /courses/id_do_curso).
 
-## Contato
+## Como contribuir:
 
-Linkedin [Manfrinne Ferreira](https://linkedin.com/in/manfrinne-ferreira-6033121a7) - Twitter [@Manfrinne_R00t](https://twitter.com/Manfrinne_R00t) - Email m4nfrinne@gmail.com - GitHub [https://github.com/Manfrinne](https://github.com/Manfrinne) 
+-  Faça um fork do projeto;
+-  Crie uma nova branch, exemplo: `git checkout -b my-feature`;
+-  Commit as modificações, exemplo: `git commit -m 'feat: My new feature'`;
+-  Faça um push para a sua branch: `git push origin my-feature`.
+
+Criado por Manfrinne Ferreira [Contato](https://www.linkedin.com/in/manfrinne-ferreira-6033121a7/)
